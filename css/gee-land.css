@@ -1,0 +1,178 @@
+
+body  {
+  color: black;
+  font-family: "Karla";
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.body-text {
+  font-family: Karla;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.nav-text-right {
+  font-size: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  cursor:pointer;  
+  color: black;
+}
+
+.h3-head-right {
+  font-family: "Karla";
+  font-weight: 600;
+}
+
+.header-text {
+  font-family: "Rubik";
+  font-size: 4.4em;
+  font-weight: 700;
+
+}
+
+.graphic-img {
+  background-image: url(../graphics-portfolio/test.png);
+  z-index: 1;
+}
+
+.subhead-highlight {
+  color: black;
+}
+
+.header-subtext {
+  color: #676767;
+  font-weight: 400;
+  font-size: 1.9em;
+}
+
+.header-caps-bold {
+  font-weight: bold;
+  font-family: Rubik;
+  text-transform: uppercase;
+}
+
+.section-one {
+  margin-bottom: 5em;
+}
+
+.project-descriptors {
+  font-family: "Rubik";
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.separator-portfolio {
+  border-bottom: 1px solid black;
+}
+
+.btn-override {
+  border: 1px solid black;
+  border-radius: 0;
+  color: black;
+}
+
+.btn-override:hover {
+  border: 1px solid black;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+}
+
+.fa-arrow-right {
+  font-size: 1.2em;
+  padding-left: 12px;
+}
+
+.p-list-spacing {
+  margin-bottom: 0;
+}
+
+.img-caption {
+  font-family: karla;
+  font-size: 1em;
+  color: #7b7b7b;
+  justify-content: center;
+  margin-top: .5em;
+}
+
+.a-caption {
+  color: #7b7b7b;
+}
+
+.home-footer {
+  margin: 5em 0 5em 0;
+}
+
+.home-footer-text {
+  font-size: 1.1rem;
+}
+
+.home-footer-text:hover {
+  text-decoration: none;
+}
+
+.quote {
+  font-family: rubik;
+  font-weight: 700;
+}
+
+scroll-container {
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: block;
+  text-align: center;
+  height: 500px;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 0px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
+.btn-list {
+
+  margin: 5px;
+}
+
+#file-manager-prototype {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.lowercase-subhead {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.iteration-highlight {
+  background-color: aliceblue;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
