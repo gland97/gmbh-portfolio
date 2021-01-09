@@ -173,6 +173,62 @@ body::-webkit-scrollbar-thumb {
 
 .iteration-highlight {
   background-color: aliceblue;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.img-center-features {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-add-server {
+  width: 12em;
+  height: 3em;
+  color: #0047FF;
+  font-size: 2em;
+  font-family: "Gilroy";
+  font-weight: 600;
+  border-radius: 2pc;
+  border-color: #0047FF;
+  border-width: 4px;
+}
+
+.btn-add-server:hover {
+  width: 12em;
+  height: 3em;
+  color: white;
+  font-size: 2em;
+  font-family: "Gilroy";
+  font-weight: 600;
+  border-radius: 2pc;
+  border-color: #0047FF;
+  border-width: 4px;
+  background-color: #0047FF;
+}
+
+.btn-edition-select {
+  padding-left: 3em;
+  padding-right: 3em;
+  color: #000000;
+  font-size: 2em;
+  font-family: "Gilroy";
+  font-weight: 600;
+  border-radius: 15px;
+  border-color: white;
+  background-color: white;
+  border-width: 3px;
+}
+
+.btn-edition-select:hover {
+  color: black;
+  background-color: #EBF0FF;
+  border-color: #007bff;
+  border-width: 3px;
+}
+
+
+.separator-footer {
+  border-top: 1px solid black;
 }
