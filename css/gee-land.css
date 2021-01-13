@@ -11,11 +11,16 @@ p {
 .body-text {
   font-family: Karla;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav-text-right {
   font-size: 1em;
+}
+
+.nav-text-right:hover {
+  font-size: 1em;
+  font-weight: 600;
 }
 
 a {
@@ -46,6 +51,13 @@ a:hover
 
 }
 
+.title-text {
+  font-family: "karla";
+  font-size: 2.1em;
+  font-weight: 900;
+  line-height: 1.5em;
+}
+
 .graphic-img {
   background-image: url(../graphics-portfolio/test.png);
   z-index: 1;
@@ -65,6 +77,7 @@ a:hover
   font-weight: bold;
   font-family: Rubik;
   text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 .section-one {
@@ -73,9 +86,14 @@ a:hover
 
 .project-descriptors {
   font-family: "Rubik";
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.project-spacing {
+  padding-top: 6em;
+  padding-bottom: 2em;
 }
 
 .separator-portfolio {
@@ -148,19 +166,13 @@ scroll-page {
   font-size: 5em;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
-  border-radius: 0px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;  /* creates padding around scroll thumb */
-}
 
 .btn-list {
-
   margin: 5px;
 }
 
 #file-manager-prototype {
-  width: 800px;
+  width: 1000px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -174,6 +186,11 @@ body::-webkit-scrollbar-thumb {
 .iteration-highlight {
   background-color: aliceblue;
   padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.iteration-separator {
+  padding-top: 6em; 
   padding-bottom: 6em;
 }
 
@@ -232,3 +249,7 @@ body::-webkit-scrollbar-thumb {
 .separator-footer {
   border-top: 1px solid black;
 }
+
+
+
+
