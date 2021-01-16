@@ -1,0 +1,9 @@
+name = "my-portfolio"
+type = "webpack"
+account_id = "d75e7677eb9de0fc604c9f001a694fb1"
+workers_dev = true
+route = "gbmh.io/*"
+zone_id = "e99329c755df0cbc0352c85d6646dada"
+
+[site]
+bucket = "./public"
