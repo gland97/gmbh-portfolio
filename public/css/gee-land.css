@@ -11,7 +11,7 @@ p {
 .body-text {
   font-family: Karla;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .nav-text-right {
@@ -74,7 +74,7 @@ a:hover
 }
 
 .header-subtext {
-  color: #676767;
+  color: #444444;
   font-weight: 400;
   font-size: 1.9em;
 }
@@ -108,12 +108,6 @@ a:hover
 
 .separator-portfolio-about {
   border-bottom: 1px solid black;
-}
-
-@media only screen and (max-width : 992px) {
-  .separator-portfolio-about {
-      border-bottom: 1px solid white;
-  }
 }
 
 .btn-override {
