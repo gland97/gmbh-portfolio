@@ -211,6 +211,13 @@ scroll-page {
   margin-right: auto;
 }
 
+.img-fluid {    
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
 .btn-add-server {
   width: 12em;
   height: 3em;
