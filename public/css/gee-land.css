@@ -211,20 +211,15 @@ scroll-page {
   margin-right: auto;
 }
 
-.img-fluid {    
-  max-height: 100%;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}
+
 
 .btn-add-server {
   width: 12em;
   height: 3em;
   color: #0047FF;
   font-size: 2em;
-  font-family: "Gilroy";
-  font-weight: 600;
+  font-family: Karla;
+  font-weight: 700;
   border-radius: 2pc;
   border-color: #0047FF;
   border-width: 4px;
@@ -235,8 +230,8 @@ scroll-page {
   height: 3em;
   color: white;
   font-size: 2em;
-  font-family: "Gilroy";
-  font-weight: 600;
+  font-family: Karla;
+  font-weight: 700;
   border-radius: 2pc;
   border-color: #0047FF;
   border-width: 4px;
@@ -248,8 +243,8 @@ scroll-page {
   padding-right: 3em;
   color: #000000;
   font-size: 2em;
-  font-family: "Gilroy";
-  font-weight: 600;
+  font-family: Karla;
+  font-weight: 700;
   border-radius: 15px;
   border-color: white;
   background-color: white;
@@ -257,9 +252,9 @@ scroll-page {
 }
 
 .btn-edition-select:hover {
-  color: black;
+  color: #0047FF;
   background-color: #EBF0FF;
-  border-color: #007bff;
+  border-color: #0047FF;
   border-width: 3px;
 }
 
@@ -268,3 +263,90 @@ scroll-page {
   border-top: 1px solid black;
 }
 
+.article-link {
+  color: burlywood;
+}
+.article-link:hover {
+  color: #444444;
+}
+
+.article-separator {
+  margin-bottom: 2em;
+}
+
+/* DEMO CARDS */
+/* DEMO GENERAL */
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+
+/* DEMO 1 */
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+  color: white;
+}
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover img {
+  left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
