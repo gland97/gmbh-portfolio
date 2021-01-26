@@ -3,12 +3,9 @@
 
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/c29f87ac32.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/gee-land.css">
   <title>Home</title>
   <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
@@ -18,6 +15,15 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D06YBYRWS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6D06YBYRWS');
+</script>
 </head>
 
 <body>
@@ -32,7 +38,12 @@
           </div>
           <div class="col-5">
             <div class="row">
-              <div class="col-12 justify-content-end d-flex navbar-brand">           
+              <div class="col-12 justify-content-end d-flex navbar-brand">             
+                <div class="col-sm-4 col-xl-3 d-flex justify-content-end">
+                  <a href="/aboutme.html">
+                    <p class="nav-text-right">About Me</p>
+                  </a>
+                </div>
                 <div class="col-sm-4 col-xl-3 d-flex justify-content-end">
                   <a href="/projects.html">
                     <p class="nav-text-right">Projects</p>
@@ -41,11 +52,6 @@
                 <div class="col-sm-4 col-xl-3 d-flex justify-content-end">
                   <a href="/editorial-gallery.html">
                     <p class="nav-text-right">Editorial</p>
-                  </a>
-                </div>
-                <div class="col-sm-4 col-xl-3 d-flex justify-content-end">
-                  <a href="/aboutme.html">
-                    <p class="nav-text-right">About</p>
                   </a>
                 </div>
               </div>
@@ -58,7 +64,7 @@
 
   <div class="container-fluid">
     
-    <div class="row section-one" style="margin-bottom: 12em; margin-top: 18em;">
+    <div class="row section-one" style="margin-bottom: 12em; margin-top: 15em;">
       <div class="offset-1 col-sm-7 col-md-8 col-xl-9">       
         <h2 class="title-text">
           Hi, I’m Georgia.
@@ -78,7 +84,7 @@
     </div>
     <div class="row" style="margin-bottom: 6em;">
       <div class="col-12 d-flex justify-content-center">
-        <img src="graphics-portfolio/arrow-down.png" style="width: 3em; height: 3em;"></img>
+        <img src="graphics-portfolio/arrow-down.svg" style="width: 2em; height: 2em;"></img>
       </div>
     </div>
   </div>
@@ -133,13 +139,16 @@
             </div>
           </div>
           <div class="col-sm-5">
-            <img src="graphics-portfolio/group-188-shadow.png" class="img-fluid">
+            <a href="/controlpanel.html">
+              <img src="graphics-portfolio/group-188-shadow.png" class="img-fluid">
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="col-11 separator-portfolio" style="padding-bottom:4em;">
-            <a href="/controlpanel.html"><button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project<i
-              class="fas fa-arrow-right"></i></button>
+            <a href="/controlpanel.html"><button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project
+              <img src="graphics-portfolio/arrow-right-solid.svg"
+              class="fa-arrow-right"></button>
             </a>
           </div>
         </div>
@@ -192,14 +201,17 @@
             </div>
           </div>
           <div class="col-sm-5">
-            <img src="graphics-portfolio/landing-page-mockup.png" class="img-fluid">
+            <a href="/landingpage.html">
+              <img src="graphics-portfolio/landing-page-mockup.png" class="img-fluid">
+            </a>
           </div>
           
         </div>
         <div class="row">
           <div class="col-11 separator-portfolio" style="padding-bottom:4em;">
-            <a href="/landingpage.html"><button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project<i
-              class="fas fa-arrow-right"></i></button>
+            <a href="/landingpage.html"><button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project
+              <img src="graphics-portfolio/arrow-right-solid.svg"
+              class="fa-arrow-right"></button>
             </a>
           </div>
         </div>
@@ -248,13 +260,17 @@
             </div>
           </div>
           <div class="col-sm-5">
-            <img src="graphics-portfolio/server-process-project3.png" class="img-fluid">
+            <a href="/server-process.html">
+              <img src="graphics-portfolio/server-process-project3.png" class="img-fluid">
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="col-11 separator-portfolio" style="padding-bottom:4em;">
-            <a href="/server-process.html"><button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project<i
-              class="fas fa-arrow-right"></i></button>
+            <a href="/server-process.html">
+              <button type="button" class="btn btn-outline-dark btn-override align-items-center d-flex">Go to Project
+              <img src="graphics-portfolio/arrow-right-solid.svg" class="fa-arrow-right">
+              </button>
             </a>
           </div>
         </div>
@@ -278,7 +294,7 @@
         </div>
         <div class="col-sm-12 col-md-4 d-flex justify-content-center">
           <a href="/aboutme.html">
-            <p class="home-footer-text">About</p>
+            <p class="home-footer-text">About Me</p>
           </a>
         </div>
       </div>
